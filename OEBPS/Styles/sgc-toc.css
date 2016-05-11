@@ -1,0 +1,11 @@
+div.sgc-toc-title {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+div.sgc-toc-level-1 {
+    margin-left: 2em;
+}
+
