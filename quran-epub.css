@@ -1,0 +1,16 @@
+@font-face {
+  font-family: HRFQ;
+  src: url("../fonts/HURUFQURAN");
+}
+
+section.level1 > h1 {
+  text-align: center;
+}
+
+section.level2 > h2 {
+  font-family: HRFQ;
+  font-size: 2rem;
+  font-style: normal;
+  direction: rtl;
+  text-align: right;
+}
