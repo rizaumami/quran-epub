@@ -1,13 +1,11 @@
 # <p align="center">quran-epub
 ## <p align="center">Al Qur'an Terjemah Bahasa Indonesia
 
-`quran-epub` adalah buku elektronik Al Qur'an Terjemah Bahasa Indonesia format [EPUB](https://en.wikipedia.org/wiki/EPUB).
+`quran-epub` adalah sebuah skrip `bash` untuk memotong dan menggabungkan berkas Al Qur'an dan terjemah dari [http://tanzil.net](http://tanzil.net) menjadi berkas markdown yang kemudian akan diubah oleh `pandoc` menjadi berkas [EPUB](https://en.wikipedia.org/wiki/EPUB).
 
-`quran-epub` hanyalah sebuah skrip `bash` untuk memotong dan menggabungkan berkas Al Qur'an dan terjemah dari [http://tanzil.net](http://tanzil.net) menjadi berkas markdown yang kemudian akan diubah oleh `pandoc` menjadi berkas EPUB.
+Skrip ini tidak mengolah apapun pada teks Qu'ran dan atau terjemahnya. Misal Anda akan menemukan bahwa pada ayat pertama tiap surat selalu diawali kalimat _bismillahirrahmanirrahim_ yang adalah tidak semestinya.
 
-Skrip ini tidak mengolah apapun pada teks Qu'ran dan atau terjemahnya, misal Anda akan menemukan bahwa pada ayat pertama tiap surat selalu diserta kalimat _bismillahirrahmanirrahim_ yang adalah tidak semestinya.
-
-Pengguna skrip ini janganlah menjadikan berkas EPUB yang dihasilkan sebagai acuan utama melainkan hanya sebagai pustaka penambah saja.
+Pengguna `quran-epub` janganlah menjadikan berkas EPUB yang dihasilkannya sebagai acuan utama, melainkan hanya sebagai pustaka penambah saja.
 
 ### Penggunaan
 
@@ -93,26 +91,32 @@ Pengguna skrip ini janganlah menjadikan berkas EPUB yang dihasilkan sebagai acua
 
 - quran-simple-clean.txt \
   diunduh: 2019-01-28 01:20:38 \
+  dari: http://tanzil.net/download/ \
   sha1: 2bc7e1dc2075410145ddd8b6935771f007d2bc98
 
 - quran-simple-enhanced.txt \
   diunduh: 2019-01-28 01:20:38 \
+  dari: http://tanzil.net/download/ \
   sha1: ea84b95563201fd618bf895fde83a5c646122d96
 
 - quran-simple-min.txt \
   diunduh: 2019-01-28 01:20:38 \
+  dari: http://tanzil.net/download/ \
   sha1: 14ce6e96bdc548ad8509b86aace46941dec5d887
 
 - quran-simple.txt \
   diunduh: 2019-01-28 01:20:38 \
+  dari: http://tanzil.net/download/ \
   sha1: 16d8abb30a4ace3e457bf99e3693fd36a9dfa0d7
 
 - quran-uthmani-min.txt \
   diunduh: 2019-01-28 01:20:38 \
+  dari: http://tanzil.net/download/ \
   sha1: f403eec72fbea559e6b94de3ed945c5527128ea3
 
 - quran-uthmani.txt \
   diunduh: 2019-01-28 01:20:38 \
+  dari: http://tanzil.net/download/ \
   sha1: 66c40e21add91b1106f07d852079ae6692099a36
 
 - id.indonesian.txt \
